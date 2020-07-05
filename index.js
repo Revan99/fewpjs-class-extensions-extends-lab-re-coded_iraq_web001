@@ -28,6 +28,7 @@ class Triangle extends Polygon{
   }
 }
 class Square extends Polygon{
+<<<<<<< HEAD
    get isValid(){
     if (this._countSides!=4)return false
     let a = this._sides[0]
@@ -40,4 +41,7 @@ class Square extends Polygon{
     if (!this.isValid) return
     return this._sides[0]**2
   }
+=======
+  
+>>>>>>> 8fed9cdc9770b9ef426432e7b986ac6b08f76aba
 }
